@@ -6,10 +6,10 @@ import os
 import subprocess
 
 # Open Telegram link in browser
-webbrowser.open("https://t.me/nobi_shop")
+webbrowser.open("https://t.me/nobi_shops")
 
 # Generate ASCII text
-ascii_art = pyfiglet.figlet_format("Ziddi")
+ascii_art = pyfiglet.figlet_format("|ZIDDI| |NOBI|")
 print(colored(ascii_art, "cyan"))
 
 # Ensure `cfonts` is installed and import it
